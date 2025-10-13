@@ -32,7 +32,7 @@ public class Main {
             return subBreeds.size();
         }
         catch (BreedFetcher.BreedNotFoundException e){
-            return 0;
+            return -1;
         }
     }
 }
